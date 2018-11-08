@@ -26,18 +26,15 @@
 .dropdown .dropdown-menu {
     background-color: #083667;
 }
-.dropdown .dropdown-menu .dropdown-item {
+.dropdown .dropdown-menu .dropdown-item, #navbarDropdown {
     color:white;
-}
-#navbarDropdown {
-    color: white;
 }
 .dropdown .dropdown-menu .dropdown-item:hover {
     background-color: #083667; 
     color: rgba(255,255,255,.75);
 }
 .main-container {
-    padding-top: 69px;
+    padding-top: 61px;
 }
 .navbar-brand:hover {
     border-bottom: .10rem solid transparent;
