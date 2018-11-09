@@ -6,6 +6,7 @@
     -webkit-box-shadow: 2px -2px 68px 0px rgba(25,70,125,1);
     -moz-box-shadow: 2px -2px 68px 0px rgba(25,70,125,1);
     box-shadow: 2px -2px 68px 0px rgba(25,70,125,1);
+    padding-top: 0px;
 }
 .navbar-dark .navbar-toggler .nav-hamburger {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -33,11 +34,11 @@
     background-color: #083667; 
     color: rgba(255,255,255,.75);
 }
-.main-container {
-    padding-top: 61px;
+.navbar {
+    padding: 0 1.1rem;
 }
 .navbar-brand:hover {
-    border-bottom: .10rem solid transparent;
+    border-bottom: .5rem solid transparent;
 }
 .cards .row .col-md-6 {
     text-align: center;
@@ -68,10 +69,18 @@
     height: 260px;
     width: 50%;
 }
-
+.carousel-pc {
+    background-attachment: fixed;
+}
 @media (max-width: 769px) {
     .card-img-top {
         height: auto;
         width: 65%;
     }
+    .carousel-pc {
+        width: 100%;
+    }
+    .navbar {
+    padding: 0 1.1rem;
+}
 }
