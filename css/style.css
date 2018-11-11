@@ -3,9 +3,9 @@
 }
 .nav-background {
     background-color: #083667; 
-    -webkit-box-shadow: 2px -2px 68px 0px rgba(25,70,125,1);
-    -moz-box-shadow: 2px -2px 68px 0px rgba(25,70,125,1);
-    box-shadow: 2px -2px 68px 0px rgba(25,70,125,1);
+    -webkit-box-shadow: -5px 10px 89px 2px rgba(8,32,102,1);
+    -moz-box-shadow: -5px 10px 89px 2px rgba(8,32,102,1);
+    box-shadow: -5px 10px 89px 2px rgba(8,32,102,1);
     padding-top: 0px;
 }
 .navbar-dark .navbar-toggler .nav-hamburger {
@@ -69,7 +69,7 @@
     height: 260px;
     width: 50%;
 }
-.carousel-pc {
+#carouselExampleIndicators img {
     background-attachment: fixed;
 }
 @media (max-width: 769px) {
@@ -83,4 +83,7 @@
     .navbar {
     padding: 0 1.1rem;
 }
+}
+.pictures {
+
 }
