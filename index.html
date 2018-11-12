@@ -163,7 +163,7 @@
 					<img class="img-responsive mt-4 rounded-circle pictures" src="images/infrastructure/nsk.jpg" alt="">
 				</div>
 				<div class="col-md-6 col-lg-6 mt-6">
-					<h4 class="section-title text-dark-sm">
+					<h4 class="section-title text-center">
 						Домашняя арена НСК "Олимпийский"
 					</h4>
 					<ul>
@@ -171,13 +171,19 @@
 							Самое громкое исполнение гимна страны (98 dB)
 						</li>
 						<li>
-							Наибольшее количество посетителей футбольного матча, проводимых Лигой Европы
+							«Олимпийский» является основным местом проведения домашних матчей национальной сборной Украины по футболу.
+						</li>
+						<li>
+							Одноимённый стадион комплекса является главной спортивной ареной Украины и одним из крупнейших стадионов Европы. 
+						</li>
+						<li>
+							Наибольшее количество посетителей футбольного матча, проводимых Лигой Европы.
 						</li>
 						<li>
 							Наибольшее количество посетителей футбольного матча, в чемпионатах Украины по футбол - 73 950 зрителей.
 						</li>
 						<li>
-							Наибольшее количество рекордов в различных категориях на футбольной арене
+							Наибольшее количество рекордов в различных категориях на футбольной арене.
 						</li>
 					</ul>
 				</div>
@@ -187,7 +193,7 @@
 					<img class="img-responsive mt-4 rounded-circle pictures" src="images/infrastructure/baza.jpg" alt="">
 				</div>
 				<div class="col-md-6 col-lg-6 mt-6">
-					<h4 class="section-title text-dark-sm">
+					<h4 class="section-title text-center">
 						Учебно-тренировочная база ФК «Динамо» Киев в Конча-Заспе
 					</h4>
 					<ul>
@@ -208,7 +214,7 @@
 					<img class="img-responsive mt-4 rounded-circle pictures" src="images/infrastructure/muse.jpg" alt="">
 				</div>
 				<div class="col-md-6 col-lg-6 mt-6">
-					<h4 class="section-title text-dark-sm">
+					<h4 class="section-title text-center">
 						Храм реликвий "Бело-синих"
 					</h4>
 					<ul>
@@ -231,30 +237,30 @@
 		<div class="partners">
 			<div class="container">
 				<div class="sponsors">
-					<h4 class="sponsors">
+					<h4 class="sponsors text-center">
 						Спонсоры и партнеры
 					</h4>
 				</div>
-				<div class="row">
-					<div class="col-md-6 col-lg-3">
+				<div class="row imgs">
+					<div class="col-sm-2 col-lg-3">
 						<img src="images/partners/arber.png">
 					</div>
-					<div class="col-md-6 col-lg-3">
+					<div class="col-sm-2 col-lg-3">
 						<img src="images/partners/arma.png">
 					</div>
-					<div class="col-md-6 col-lg-3">
+					<div class="col-sm-2 col-lg-3">
 						<img src="images/partners/boris.png">
 					</div>
-					<div class="col-md-6 col-lg-3">
+					<div class="col-sm-2 col-lg-3">
 						<img src="images/partners/klo.png">
 					</div>
-					<div class="col-md-6 col-lg-3">
+					<div class="col-sm-2 col-lg-3 offset-lg-1">
 						<img src="images/partners/lifec.png">
 					</div>
-					<div class="col-md-6 col-lg-3">
+					<div class="col-sm-2 col-lg-3">
 						<img src="images/partners/newb.png">
 					</div>
-					<div class="col-md-6 col-lg-3">
+					<div class="col-sm-2 col-lg-3 ">
 						<img src="images/partners/morsh.png">
 					</div>
 				</div>
@@ -269,5 +275,24 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
   	</body>
 </html>
